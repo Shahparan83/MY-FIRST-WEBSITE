@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+  background-color: brown;
+  text-decoration: dotted;
+}
+p{
+    color:brown;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font-weight: 900;
+}
+#one{
+    color: blueviolet;
+    font-weight: 800;
+    text-decoration: underline;
+}
+#two
+{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+#three{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+}
