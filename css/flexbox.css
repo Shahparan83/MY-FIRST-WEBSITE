@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+div{
+    width: 500px;
+    height: 100px;
+   display: inline-flex;
+   border: 2px solid black;
+}
+#container{
+   width: 800px;
+   height: 200px;
+   display: flex;
+   /* flex-direction: column; */
+   flex-direction: row; left to right arrangement
+   /* flex-direction: row-reverse; right to left arrangement */
+   /* flex-direction: column; top to bottom arrangement */
+   /* flex-direction: column-reverse; bottom to top arrangement */
+    justify-content: space-around; /* align items along main axis */
+    flex-wrap: wrap; /* allow items to wrap to the next line if necessary */
+    /* align-items: center; */
+    align-items: flex-start;
+    align-content: flex-start; /* align lines of items when there are multiple lines */
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: blue;
+    flex-shrink: 0.5;
+}
+#box3{
+    background-color: green;
+    flex-shrink: 4;
+}
+#box4{
+    background-color: yellow;
+}
+#box5{
+    background-color: purple;
+}
